@@ -13,5 +13,6 @@ Python版本：3.6
 
 3、简易使用一样的IDE工具，但是不强求。
 
-运行前先安装依赖   pip install -r requirement.txt
-启动命令 python manage.py runserver
+运行前先安装依赖:pip install -r requirement.txt 
+
+启动命令:python manage.py runserver
