@@ -16,3 +16,4 @@ Python版本：3.6
 运行前先安装依赖:pip install -r requirement.txt 
 
 启动命令:python manage.py runserver
+创建数据库:python manage.py create_db
