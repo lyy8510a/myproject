@@ -12,7 +12,7 @@ class Config(object):
     # 版本
     VERSION = 'beta 0.1'
     # 项目名称
-    PROJECTNAME = 'myproject'
+    PROJECTNAME = 'MYPROJECT'
     # 端口
     PORT = 10101
 
