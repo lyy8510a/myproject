@@ -34,6 +34,6 @@ def create_app():
     # 钩子 在请求执行之前
     @app.before_request
     def before_request():
-       print(current_user.username)
+       pass
 
     return app
