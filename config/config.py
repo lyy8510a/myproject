@@ -15,7 +15,8 @@ class Config(object):
     PROJECTNAME = 'MYPROJECT'
     # 端口
     PORT = 10101
-
+    ADMIN_USER = 'admin'
+    ADMIN_EMAIL = '51263921@qq.com'
     SECRET_KEY = '1234567890!@#$%^&*()'
 
 class ProdConfig(Config):
@@ -33,6 +34,7 @@ class SitConfig(Config):
     DEBUG = True
     # 主机ip地址
     HOST = '127.0.0.1'
+    STATIC_URL = "http://{0}:{1}/static".format(HOST,Config.PORT)
 
     # # 数据库配置
     MYSQL_HOST = '127.0.0.1'  #此处修改为您的mysql的主机IP

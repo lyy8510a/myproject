@@ -31,3 +31,13 @@
         </ul>
     </nav>
 </div>
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-success">
+          {{ message }}
+           <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endwith %}

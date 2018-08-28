@@ -29,6 +29,7 @@ def create_app():
     login_manager.init_app(app)  #第三课增加内容
     # 将变量注册到jinja全局变量
     app.add_template_global(app.config['PROJECTNAME'], 'PROJECTNAME')
+    app.add_template_global(app.config['STATIC_URL'], 'STATIC_URL')
 
 
     # 钩子 在请求执行之前
