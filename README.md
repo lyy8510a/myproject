@@ -18,3 +18,9 @@ Python版本：3.6
 启动命令:python manage.py runserver
 
 创建数据库:python manage.py create_db
+
+目前完成：
+1、注册
+2、登录
+3、用户增删改查
+4、角色
